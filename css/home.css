@@ -1,29 +1,38 @@
-section.bg-main {
-    background-image: url(../../img/background.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh;
-}
-
-.hero {
+.container {
     display: flex;
-    flex-direction: column;
     gap: 30px;
-    align-items: center;
-    text-align: center;
+    margin: 20% 20%;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: row;
+
+    display: inline;
+    align-items: center;
     justify-content: space-between;
+    align-content: space-between;
+
 }
 
 .column {
+
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e57263;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text {
+
+    text-align: center;
+    flex: content;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content .img {
+
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
-    width: 50%;
+    justify-content: center;
+    height: 125px;
 }
