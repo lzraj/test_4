@@ -6,15 +6,17 @@
 
 .main-content {
 
-    display: inline;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items
+    justify-items: center;
     align-items: center;
-    justify-content: space-between;
-    align-content: space-between;
 
 }
 
 .column {
-
+    
     vertical-align: top;
     font-family: Arial, Helvetica, sans-serif;
     color: #e57263;
@@ -32,7 +34,9 @@
 
 .main-content .img {
 
-    display: flex;
+    
+    display: block;
+    align-items: center;
     justify-content: center;
     height: 125px;
 }
